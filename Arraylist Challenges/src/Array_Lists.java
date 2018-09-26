@@ -11,7 +11,7 @@ public class Array_Lists
 //				Intro
 				Challenge_One();
 				Challenge_Two();
-//				Challenge_Three();
+				Challenge_Three();
 //					
 //				
 //				2D Array
@@ -72,12 +72,24 @@ public class Array_Lists
 					{
 						sum = sum + intro.get(i);
 					}
-				System.out.println("The sum is " + sum);
+				System.out.println("+");
+				System.out.println("= " + sum);
 			
 			}
 
 		private static void Challenge_Three()
 			{
+				intro.remove(3.5);
+				intro.add(7.4);
+				intro.add(5.5);
+				
+				double sum = 0;
+				for (int i = 0; i < intro.size(); i++)
+					{
+						sum = sum + intro.get(i);
+					}
+				double average = sum / intro.size();
+				System.out.println("average ='s " + average);
 				
 			}
 		

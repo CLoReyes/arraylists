@@ -89,7 +89,7 @@ public class Array_Lists
 						sum = sum + intro.get(i);
 					}
 				double average = sum / intro.size();
-				System.out.println("average ='s " + average);
+				System.out.println("average = " + average);
 				
 			}
 		

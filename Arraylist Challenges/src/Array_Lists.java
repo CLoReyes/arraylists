@@ -9,15 +9,15 @@ public class Array_Lists
 				
 			
 //				Intro
-				Challenge_One();
-				Challenge_Two();
-				Challenge_Three();
+//				Challenge_One();
+//				Challenge_Two();
+//				Challenge_Three();
 //					
 //				
 //				2D Array
-//				TwoDChallengeOne();
-//				TwoDChallengeTwo();
-//				TwoDChallengeThree();
+				TwoDChallengeOne();
+				TwoDChallengeTwo();
+				TwoDChallengeThree();
 					
 			
 					
@@ -123,10 +123,10 @@ public class Array_Lists
 				
 				for (int row = 0; row < mustangs.length; row++)
 					{
-//						for(int col = 0; col < mustangs[0]length; col++)
-//							{
-//								System.out.println([row] [col]);
-//							}
+						for (int col = 0; col < mustangs[row].length; col++)
+							{
+								System.out.println("mustangs");
+							}
 					}
 			
 					
@@ -134,7 +134,23 @@ public class Array_Lists
 
 		private static void TwoDChallengeThree()
 			{
+				final int [] [] matrix = 
+					{
+							{1, 2, 3},
+							{4, 5, 6},
+							{7, 8, 9}
+					};
 				
+				for (int row = 0; row < matrix.length; row++)
+					{
+						for (int col = 0; col < matrix[row].length; col++)
+						{
+							System.out.println(matrix[row] [col] + " ");
+						}
+						
+					}
+				
+			
 			}
 
 	}

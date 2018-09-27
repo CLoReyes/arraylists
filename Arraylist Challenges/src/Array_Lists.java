@@ -145,7 +145,7 @@ public class Array_Lists
 						for (int col = 0; col < byTens[row].length; col++)
 							{
 								
-								System.out.print((int)(Math.abs(10)^10 * 2));
+								System.out.print((int)(Math.abs(10)^10 * 6));
 								System.out.print(" ");
 								//System.out.print("10 " + (int)(Math.abs(1)*10 + 1));
 							}

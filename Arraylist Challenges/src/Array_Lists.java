@@ -136,14 +136,18 @@ public class Array_Lists
 		private static void TwoDChallengeThree()
 			{
 				
-					
-				int tens [] [] = new int [3] [3];
 				
-				for (int row = 0; row < tens.length; row++)
+				
+				int byTens [] [] = new int [3] [3];
+				
+				for (int row = 0; row < byTens.length; row++)
 					{
-						for (int col = 0; col < tens[row].length; col++)
+						for (int col = 0; col < byTens[row].length; col++)
 							{
-								System.out.print("mustangs ");
+								
+								System.out.print((int)(Math.abs(10)^10 * 2));
+								System.out.print(" ");
+								//System.out.print("10 " + (int)(Math.abs(1)*10 + 1));
 							}
 						System.out.println();
 					}

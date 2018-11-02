@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Array_Lists
 	{
 		static ArrayList <Double> intro = new ArrayList <> ();
-	
+		
 		public static void main(String[] args)
 			{
 				
@@ -17,7 +17,7 @@ public class Array_Lists
 //				2D Array
 //				TwoDChallengeOne();
 //				TwoDChallengeTwo();
-				TwoDChallengeThree();
+			TwoDChallengeThree();
 					
 			
 					
@@ -139,36 +139,34 @@ public class Array_Lists
 				
 				
 				int byTens [] [] = new int [3] [3];
-				
+				int counter = 10;
 				for (int row = 0; row < byTens.length; row++)
 					{
 						for (int col = 0; col < byTens[row].length; col++)
 							{
+								byTens[row][col] = counter;
+								counter +=10;
 								
-								System.out.print((int)(Math.abs(10)^10 * 6));
-								System.out.print(" ");
-								//System.out.print("10 " + (int)(Math.abs(1)*10 + 1));
 							}
-						System.out.println();
+								
+								//System.out.print("10 " + (int)(Math.abs(1)*10 + 1));
+							
+						System.out.println(" ");
 					}
-			
-//				final int [] [] matrix = 
-//					{
-//							{1, 2, 3},
-//							{4, 5, 6},
-//							{7, 8, 9}
-//					};
-//				
-//				for (int row = 0; row < matrix.length; row++)
-//					{
-//						for (int col = 0; col < matrix[row].length; col++)
-//						{
-//							System.out.println(matrix[row] [col] + " ");
-//						}
-//						
-//					}
 				
+				for (int row = 0; row < 3; row++)
+					{
+						for (int col = 0; col < 3; col++)
+							{
+								System.out.println(byTens[row][col] + " ");
+							}
+						System.out.println(" ");
+					}
+				int sum = 0;
+				sum += byTens[0][0] + byTens[2][0] + byTens[0][2] + byTens[2][2];
+				System.out.println("Four corners added up = " + sum);
+
 			
 			}
-
+ 
 	}
